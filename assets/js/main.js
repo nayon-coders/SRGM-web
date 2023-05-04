@@ -155,12 +155,7 @@
       },
     },
   });
-  
-  /**
-   * Initiate pURE cOUNTER
-   */
-  new PureCounter();
-  
+
   /**
    * Animation on scroll
    */
@@ -172,4 +167,8 @@
       mirror: false,
     });
   });
+  /**
+   * Initiate pURE cOUNTER
+   */
+  new PureCounter();
 })()

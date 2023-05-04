@@ -2,6 +2,7 @@
 * Template Name: SRGM
 * Updated: APR 14 2023 with Bootstrap v5.2.3
 * Author: SRGM LTM
+* DEVE
 */
 
 /*--------------------------------------------------------------
@@ -352,6 +353,12 @@ h6 {
   background-repeat: no-repeat;
   background-color: rgba(30, 35, 40, 0.6);
 }
+#hero video {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
 
 @media (max-width: 992px) {
   #hero {
@@ -473,8 +480,8 @@ section {
 /*--------------------------------------------------------------
 # SR-service
 --------------------------------------------------------------*/
-#SR-service{
-  background-color: black;
+#SR-service {
+  background-color: white;
 }
 #SR-service .icon-box {
   padding: 30px 20px;
@@ -522,7 +529,7 @@ section {
 .stats-counter .stats-item span {
   font-size: 58px;
   display: block;
-  color: white;
+  color: black;
   font-weight: 700;
 }
 .stats-counter .stats-item p {
@@ -530,7 +537,7 @@ section {
   margin: 0;
   font-size: 16px;
   font-weight: 500;
-  color: white;
+  color: black;
 }
 /*--------------------------------------------------------------
 ### EXOTIC GOLD
@@ -549,20 +556,20 @@ section {
   margin-bottom: 25px;
 }
 .EXOTIC-info p {
-  color: #418FD4;
+  color: #418fd4;
   font-size: 22px;
 }
 .EXOTIC-info span {
-  color: #6D1289;
+  color: #6d1289;
 }
-.some{
-    width: 100%;
-    height: 300px;
-    overflow: scroll;
+.some {
+  width: 100%;
+  height: 300px;
+  overflow: scroll;
 }
 .some::-webkit-scrollbar {
-    display: none;
-  }
+  display: none;
+}
 
 .card-image img {
   width: 720px;
@@ -579,7 +586,7 @@ section {
 /*--------------------------------------------------------------
 ### quarry
 --------------------------------------------------------------*/
-.quarry{
+.quarry {
   padding-bottom: 0px;
   background-color: black;
 }
@@ -591,16 +598,16 @@ section {
   text-align: right;
   font-size: 60px;
   line-height: 0.7;
-  color: white;
+  color: #ec4899;
 }
-.quarry-heading-right span {
+.quarry-heading-right .RAJASTHAN {
   font-size: 16px;
 }
 
 /*--------------------------------------------------------------
 ### exclusive
 --------------------------------------------------------------*/
-.exclusive{
+.exclusive {
   background-color: black;
 }
 .exclusive-heading p {
@@ -621,7 +628,7 @@ section {
   height: 60px;
 }
 #exclusive .swiper-button-next {
-   background-color: white;
+  background-color: white;
   padding: 10px;
   border-radius: 50%;
   width: 60px;
@@ -642,15 +649,20 @@ section {
   color: black;
 }
 .experience-gradient {
-  background: -webkit-linear-gradient(0deg,#be22ff 20%,#ff279c 50%,#ff981f 80%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-    font-size: 40px;
-    line-height: 1.1;
-    font-weight: 600;
-    letter-spacing: 0em;
+  background: -webkit-linear-gradient(
+    0deg,
+    #be22ff 20%,
+    #ff279c 50%,
+    #ff981f 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
 }
 .experience-section-heading h4 {
   color: white;
@@ -736,7 +748,7 @@ section {
   padding: 15px;
   font-weight: 600;
 }
-.booking .php-email-form .error-message br+br {
+.booking .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 .booking .php-email-form .sent-message {
@@ -785,8 +797,8 @@ section {
   padding-right: 12px;
 }
 
-.booking .php-email-form button[type=submit] {
-  background: #8E5DC9;
+.booking .php-email-form button[type="submit"] {
+  background: #8e5dc9;
   border: 0;
   border-radius: 6px;
   height: 57px;
@@ -795,10 +807,9 @@ section {
   width: 100%;
 }
 
-.booking .php-email-form button[type=submit]:hover {
+.booking .php-email-form button[type="submit"]:hover {
   background: black;
 }
-
 
 /*--------------------------------------------------------------
 ### SRGM granite Section
