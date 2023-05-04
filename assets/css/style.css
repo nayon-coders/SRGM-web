@@ -597,6 +597,14 @@ section {
 .quarry-heading-left h3 {
   color: white;
   font-weight: 600;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
 }
 .quarry-heading-right h3 {
   text-align: right;
